@@ -15,7 +15,10 @@ export default function App({ Component, pageProps }: AppProps) {
   const { locale } = useRouter();
 
   return (
-    <IntlProvider locale={locale} messages={messages[locale]}>
+    <IntlProvider
+      locale={locale ? locale : "fr"}
+      messages={locale ? messages[locale === "fr" ? "fr" : "en"] : undefined}
+    >
       <ChakraProvider>
         <Component {...pageProps} />
       </ChakraProvider>

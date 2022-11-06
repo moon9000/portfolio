@@ -80,7 +80,7 @@ export function MenuWrapper() {
           {locales ? (
             <div className="space-x-2 flex">
               {[...locales].sort().map((locale) => (
-                <Link key={locale} href={`/${locale}`} locale={locale}>
+                <Link key={locale} href={`/${locale}`}>
                   {locale}
                 </Link>
               ))}

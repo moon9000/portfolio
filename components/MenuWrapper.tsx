@@ -26,9 +26,9 @@ export function MenuWrapper() {
   const Links = [
     { label: "Home", href: "/" },
     { label: "CV", href: "/CV.pdf", file: true },
-    { label: skills, href: `${locale}/skills` },
-    { label: projects, href: `${locale}/projects` },
-    { label: "Contact", href: `${locale}/contact` },
+    { label: skills, href: `/${locale}/skills` },
+    { label: projects, href: `/${locale}/projects` },
+    { label: "Contact", href: `/${locale}/contact` },
   ];
 
   const { locales } = useRouter();

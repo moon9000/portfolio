@@ -17,7 +17,7 @@ export function MenuWrapper() {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const intl = useIntl();
-
+  const locale = intl.locale;
   const projects = intl.formatMessage({ id: "MenuWrapper.projects" });
   const skills = intl.formatMessage({
     id: "MenuWrapper.skills",
@@ -26,9 +26,9 @@ export function MenuWrapper() {
   const Links = [
     { label: "Home", href: "/" },
     { label: "CV", href: "/CV.pdf", file: true },
-    { label: skills, href: "/skills" },
-    { label: projects, href: "/projects" },
-    { label: "Contact", href: "/contact" },
+    { label: skills, href: `${locale}/skills` },
+    { label: projects, href: `${locale}/projects` },
+    { label: "Contact", href: `${locale}/contact` },
   ];
 
   const { locales } = useRouter();

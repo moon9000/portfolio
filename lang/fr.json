@@ -1,6 +1,9 @@
 {
   "page.home.title": "Bienvenue sur mon portfolio",
   "page.home.description": "Je suis Sabri Abdennader, développeur web front-end. J'ai 2.5+ années d'expériences en front-end et suis spécialisé sur le framework React.",
+  "page.projects.title": "Mes projets",
+  "page.projects.musicartistsearcher.description": "Vous pouvez chercher un(e) musicien(ne) et récupérer des informations à son sujet.",
+  "page.projects.musicartistsearcher.stack": "Ce projet a été réalisé avec React.JS et Redux. Deux APIs ont été utilisées pour récupérer dynamiquement les informations conçernant l'artiste : LastFM et MusicBrainz.",
   "MenuWrapper.skills": "Compétences",
   "MenuWrapper.projects": "Projets"
 }

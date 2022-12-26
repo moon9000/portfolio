@@ -2,8 +2,19 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import { MenuWrapper } from "../../components/MenuWrapper";
+import { useIntl } from "react-intl";
 
 export default function Projects() {
+  const intl = useIntl();
+
+  const title = intl.formatMessage({ id: "page.projects.title" });
+  const descriptionMusicArtistSearcher = intl.formatMessage({
+    id: "page.projects.musicartistsearcher.description",
+  });
+  const stackMusicArtistSearcher = intl.formatMessage({
+    id: "page.projects.musicartistsearcher.stack",
+  });
+
   return (
     <div className={styles.container}>
       <div>
@@ -16,25 +27,29 @@ export default function Projects() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to my projects</h1>
+        <h1 className={styles.title}>{title}</h1>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a
+            href="https://music-artist-searcher.netlify.app/"
+            className={styles.card}
+          >
+            <h2>Music Artist Searcher</h2>
+            <p>{descriptionMusicArtistSearcher}</p>
+            <p>{stackMusicArtistSearcher}</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Coming soon...</h2>
+            <p></p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Coming soon...</h2>
+            <p></p>
           </a>
 
           <a
@@ -43,10 +58,8 @@ export default function Projects() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Coming soon...</h2>
+            <p></p>
           </a>
         </div>
       </main>

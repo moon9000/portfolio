@@ -50,16 +50,13 @@ export default function Projects() {
             <p>{stackJmusicDiscover}</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
+          <a href="/" className={styles.card}>
             <h2>Coming soon...</h2>
             <p></p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}

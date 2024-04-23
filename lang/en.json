@@ -1,6 +1,6 @@
 {
   "page.home.title": "Welcome to my portfolio",
-  "page.home.description": "Hello, I'm Sabri Abdennader, a french front-end developper. I have 4+ years of experience in front-end web app development using React and Typescript.",
+  "page.home.description": "My name is Sabri Abdennader, I'm a front-end developper with more than 4 years of experience in front-end web app development using React and Typescript.",
   "page.projects.title": "My projects",
   "page.projects.musicartistsearcher.description": "You can search a music artist and retrieve information about this specific artist.",
   "page.projects.musicartistsearcher.stack": "This project was made in React.JS with Redux. Two APIs are used to dynamically retrieve data from the searched music artist : LastFM and MusicBrainz.",

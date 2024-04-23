@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <IntlProvider
-      locale={locale ? locale : "fr"}
+      locale={locale ? locale : "en"}
       messages={locale ? messages[locale === "fr" ? "fr" : "en"] : undefined}
     >
       <ChakraProvider>

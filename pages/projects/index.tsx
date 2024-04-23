@@ -14,7 +14,12 @@ export default function Projects() {
   const stackMusicArtistSearcher = intl.formatMessage({
     id: "page.projects.musicartistsearcher.stack",
   });
-
+  const descriptionJmusicDiscover = intl.formatMessage({
+    id: "page.projects.jmusicDiscover.description",
+  });
+  const stackJmusicDiscover = intl.formatMessage({
+    id: "page.projects.jmusicDiscover.stack",
+  });
   return (
     <div className={styles.container}>
       <div>
@@ -39,9 +44,10 @@ export default function Projects() {
             <p>{stackMusicArtistSearcher}</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Coming soon...</h2>
-            <p></p>
+          <a href="https://jmusic-discover.vercel.app/" className={styles.card}>
+            <h2>J-Music Discover</h2>
+            <p>{descriptionJmusicDiscover}</p>
+            <p>{stackJmusicDiscover}</p>
           </a>
 
           <a

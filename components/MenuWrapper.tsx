@@ -28,7 +28,7 @@ export function MenuWrapper() {
     { label: "CV", href: "/CV.pdf", file: true },
     { label: skills, href: `/${locale}/skills` },
     { label: projects, href: `/${locale}/projects` },
-    { label: "Contact", href: `/${locale}/contact` },
+    { label: "Contact", href: "mailto:sabri.abdennader@gmail.com" },
   ];
 
   const { locales } = useRouter();

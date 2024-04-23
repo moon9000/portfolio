@@ -4,6 +4,8 @@
   "page.projects.title": "Mes projets",
   "page.projects.musicartistsearcher.description": "Vous pouvez chercher un(e) musicien(ne) et récupérer des informations à son sujet.",
   "page.projects.musicartistsearcher.stack": "Ce projet a été réalisé avec React.JS et Redux. Deux APIs ont été utilisées pour récupérer dynamiquement les informations conçernant l'artiste : LastFM et MusicBrainz.",
+  "page.projects.jmusicDiscover.description": "Vous pouvez découvrir le top 50 japonais du moment ainsi que les plus gros hits au Japon de chaque année, en pouvant remonter jusqu'aux années 70.",
+  "page.projects.jmusicDiscover.stack": "Ce projet a été réalisé avec ReactJS et NextJS. L'API de Spotify a été utilisée afin de récupérer les playlists et les chansons.",
   "MenuWrapper.skills": "Compétences",
   "MenuWrapper.projects": "Projets"
 }

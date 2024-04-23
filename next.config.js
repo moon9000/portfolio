@@ -21,7 +21,7 @@ const nextConfig = {
   i18n: {
     locales: ["en", "fr"],
     // The default locale you want to be used when visiting a non-locale prefixed path e.g. `/hello`
-    defaultLocale: "fr",
+    defaultLocale: "en",
   },
 };
 

@@ -66,13 +66,6 @@ export function MenuWrapper() {
       px={4}
     >
       <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-        <IconButton
-          size={"md"}
-          icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-          aria-label={"Open Menu"}
-          display={{ md: "none" }}
-          onClick={() => setIsOpen(!isOpen)}
-        />
         <HStack spacing={8} alignItems={"center"}>
           {Links.map((link) => (
             <NavLink href={link.href} key={link.label} file={link.file}>

@@ -48,7 +48,7 @@ export function MenuWrapper() {
         py={1}
         rounded={"md"}
         _hover={{
-          textDecoration: "none",
+          textDecoration: "underline",
           bg: useColorModeValue("gray.200", "gray.700"),
         }}
         href={href}
@@ -60,7 +60,11 @@ export function MenuWrapper() {
   }
 
   return (
-    <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+    <Box
+      sx={{ display: "flex" }}
+      bg={useColorModeValue("gray.100", "gray.900")}
+      px={4}
+    >
       <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
         <IconButton
           size={"md"}

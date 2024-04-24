@@ -61,7 +61,7 @@ export function MenuWrapper() {
 
   return (
     <Box
-      sx={{ display: "flex" }}
+      sx={{ overflowX: "auto", whiteSpace: "nowrap" }}
       bg={useColorModeValue("gray.100", "gray.900")}
       px={4}
     >

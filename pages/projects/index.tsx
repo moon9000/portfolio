@@ -22,7 +22,6 @@ export default function Projects() {
   });
   return (
     <div className={styles.container}>
-      <MenuWrapper />
       <main className={styles.main}>
         <h1 className={styles.title}>{title}</h1>
 

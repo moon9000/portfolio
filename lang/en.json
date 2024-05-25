@@ -1,11 +1,13 @@
 {
-  "page.home.title": "Welcome to my portfolio",
-  "page.home.description": "My name is Sabri Abdennader, I'm a front-end developper with more than 4 years of experience in front-end web app development using React and Typescript.",
+  "page.home.title": "Hi there, welcome to my portfolio",
+  "page.home.description": "My name is Sabri Abdennader, I am a front-end developper with more than four years of experience developing various web app using React and Typescript. \n \n I am passionate about technology, web development and language learning. \n \n I completed a Bachelor of Computer Science at the University of La Sorbonne in Paris, and also previously worked in accounting and finance for almost three years.",
   "page.projects.title": "My projects",
   "page.projects.musicartistsearcher.description": "You can search a music artist and retrieve information about this specific artist.",
   "page.projects.musicartistsearcher.stack": "This project was made in React.JS with Redux. Two APIs are used to dynamically retrieve data from the searched music artist : LastFM and MusicBrainz.",
   "page.projects.jmusicDiscover.description": "You can discover the current top 50 songs in Japan and what where the hit songs in Japan from each year, going back to the 70s.",
   "page.projects.jmusicDiscover.stack": "This project was made in React.JS and NextJS. The Spotify API is used to dynamically retrieve the playlists and the songs.",
+  "page.projects.tocflLearning.description": "You can improve your Traditional Chinese vocabulary by discovering new words with English meaning and real-life sentences. Words are sorted by level according to the official vocabulary list of the Test of Chinese as a Foreign Language (TOCFL) exam.",
+  "page.projects.tocflLearning.stack": "This project was made in React.JS for the front-end, and Node.JS with Express and the Prisma ORM for the back-end. The database is hosted on Supabase.",
 
   "MenuWrapper.skills": "Skills",
   "MenuWrapper.projects": "Projects"

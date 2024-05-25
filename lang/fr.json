@@ -1,11 +1,14 @@
 {
   "page.home.title": "Bienvenue sur mon portfolio",
-  "page.home.description": "Je m'appelle Sabri Abdennader, je suis développeur web front-end depuis plus de 4 ans et suis spécialisé sur le framework React avec Typescript.",
+  "page.home.description": "Je m'appelle Sabri Abdennader, je suis développeur web front-end depuis plus de 4 ans, et suis spécialisé sur le framework React avec Typescript. \n \n Je suis passionné par les nouvelles technologies, le développement web ainsi que l'apprentissage des langues étrangères. \n \n J'ai obtenu une licence en informatique à l'Université La Sorbonne à Paris, et par le passé j'ai également travaillé pendant près de trois ans dans la comptabilité, domaine dans lequel je suis diplômé d'un master.",
   "page.projects.title": "Mes projets",
   "page.projects.musicartistsearcher.description": "Vous pouvez chercher un(e) musicien(ne) et récupérer des informations à son sujet.",
   "page.projects.musicartistsearcher.stack": "Ce projet a été réalisé avec React.JS et Redux. Deux APIs ont été utilisées pour récupérer dynamiquement les informations conçernant l'artiste : LastFM et MusicBrainz.",
   "page.projects.jmusicDiscover.description": "Vous pouvez découvrir le top 50 japonais du moment ainsi que les plus gros hits au Japon de chaque année, en pouvant remonter jusqu'aux années 70.",
   "page.projects.jmusicDiscover.stack": "Ce projet a été réalisé avec ReactJS et NextJS. L'API de Spotify a été utilisée afin de récupérer les playlists et les chansons.",
+  "page.projects.tocflLearning.description": "Vous pouvez améliorer votre vocabulaire en chinois traditionnel en découvrant de nouveaux mots avec traduction en anglais et phrases utilisées dans la vraie vie. Le vocabulaire est trié par niveau de difficulté, en accord avec la liste officielle de vocabulaire de l'examen du Test of Chinese as a Foreign Language (TOCFL).",
+  "page.projects.tocflLearning.stack": "Ce projet a été réalisé avec React.JS pour le front-end, Node.JS avec Express et l'ORM Prisma pour le back-end. La base de données est hebergée avec Supabase.",
+
   "MenuWrapper.skills": "Compétences",
   "MenuWrapper.projects": "Projets"
 }

@@ -4,7 +4,6 @@
 
 .main {
   min-height: 100vh;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,20 +42,28 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
-.title,
-.description {
+.titleProjects {
+  margin-top: 30px;
+  line-height: 1.15;
+  font-size: 3rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 3rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  white-space: pre-line;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .code {
@@ -70,10 +77,9 @@
 
 .grid {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  align-items: left;
+  justify-content: left;
+  max-width: 10000px;
 }
 
 .card {

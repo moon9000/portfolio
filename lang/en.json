@@ -1,5 +1,6 @@
 {
   "page.home.title": "Hi there, welcome to my portfolio",
+  "page.home.responsiveTitle": "Welcome to my portfolio",
   "page.home.description": "My name is Sabri Abdennader, I am a front-end developper with more than four years of experience developing various web app using React and Typescript. \n \n I am passionate about technology, web development and language learning. \n \n I completed a Bachelor of Computer Science at the University of La Sorbonne in Paris, and also previously worked in accounting and finance for almost three years.",
   "page.projects.title": "My projects",
   "page.projects.musicartistsearcher.description": "You can search a music artist and retrieve information about this specific artist.",
